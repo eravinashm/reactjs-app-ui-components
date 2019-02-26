@@ -1,0 +1,40 @@
+{
+  "name": "ui-components-reactjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-daterangepicker": "^3.0.3",
+    "emojione": "^4.0.0",
+    "google-libphonenumber": "^3.2.2",
+    "immutable": "^4.0.0-rc.12",
+    "jquery": "^3.3.1",
+    "lorem-ipsum": "^1.0.6",
+    "moment": "^2.24.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-bootstrap-daterangepicker": "^4.1.0",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-tap-event-plugin": "^3.0.3",
+    "react-virtualized": "^9.21.0",
+    "rheostat": "^3.0.2",
+    "underscore": "^1.9.1"
+  },
+  "scripts": {
+    "start": "set PORT=3002 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
