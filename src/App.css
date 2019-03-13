@@ -45,3 +45,17 @@ p {
 .current {
   border-bottom: 4px solid white;
 }
+
+.cardPaper{
+  height: 500px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.containerPaper{
+  padding: 10px 16px;
+}
+.flexBox{
+  display: flex;
+  justify-content: space-between;
+}

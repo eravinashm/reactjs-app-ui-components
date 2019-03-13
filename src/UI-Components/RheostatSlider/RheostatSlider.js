@@ -48,8 +48,8 @@ class RheostatSlider extends Component{
                 // snapPoints={values}
                 //disabled={[1-5]}
             />    
-             <p>{values[0])}</p>
-             <p>{thvalues[1])}</p>
+             <p>{values[0]}</p>
+             <p>{values[1]}</p>
         </div>
         )
     }    

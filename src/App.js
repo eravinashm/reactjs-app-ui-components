@@ -5,7 +5,10 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 import DateRangePickerComponent from './UI-Components/DateRangePickerComponent/DateRangePickerComponent';
 import TableComponent2 from './UI-Components/TableComponent/TableComponent2';
 import PhoneNumberComponent from './UI-Components/googleLibPhoneNumber/PhoneNumberComponent';
-import Rheostat from './UI-Components/RheostatSlider/Index';
+// import Rheostat from './UI-Components/RheostatSlider/Index';
+// import Waveform from './UI-Components/Waveform/Waveform';
+import WavesurferComponent from './UI-Components/WavesurferComponent/WavesurferComponent';
+import GridComponent from './UI-Components/GridComponent/GridComponent';
 
 const Navigation = () => (
   <nav>
@@ -31,11 +34,14 @@ const Contact = () => (
 
 const Main = () => (
   <Switch>
-    <Route exact path='/' component={Rheostat}></Route>
+    <Route exact path="/" render={() => <WavesurferComponent src={'./src.mp3'} />} />
+    {/* <Route exact path='/waveform' component={Waveform}></Route>
+     <Route exact path='/rheostat' component={Rheostat}></Route> */}
     <Route exact path='/phone' component={PhoneNumberComponent}></Route>
     <Route exact path='/date-picker' component={DateRangePickerComponent}></Route>
     <Route exact path='/About' component={About}></Route>
     <Route exact path='/contact' component={Contact}></Route>
+    <Route path='/grid' component={GridComponent} />
   </Switch>
 );
 
