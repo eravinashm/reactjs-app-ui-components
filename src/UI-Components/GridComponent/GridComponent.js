@@ -84,7 +84,7 @@ class CustomizedGrid extends Component{
           {
             positiveWordsData.length !== 0 ?
             <Grid
-              cellRenderer={this.cellRenderer}
+              cellRenderer={this.cellRendererPositiveWordsData}
               columnCount={positiveWordsData[0].length}
               columnWidth={100}
               height={300}
@@ -98,7 +98,7 @@ class CustomizedGrid extends Component{
           {
             negativeWordsData.length !== 0 ? 
             <Grid
-              cellRenderer={this.cellRenderer}
+              cellRenderer={this.cellRendererNegativeWordsData}
               columnCount={negativeWordsData[0].length}
               columnWidth={100}
               height={300}
